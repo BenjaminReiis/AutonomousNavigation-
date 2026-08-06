@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<package format="3">
+
+  <name>robot_description</name>
+
+  <version>1.0.0</version>
+
+  <description>
+    Autonomous Robot Description
+  </description>
+
+
+  <maintainer email="robot@example.com">
+    Robot Developer
+  </maintainer>
+
+
+  <license>MIT</license>
+
+
+  <buildtool_depend>
+    ament_cmake
+  </buildtool_depend>
+
+
+</package>
