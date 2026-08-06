@@ -1,0 +1,58 @@
+import RobotStatus from "./RobotStatus";
+
+import ControlPanel from "./ControlPanel";
+
+import Telemetry from "./Telemetry";
+
+import MapView from "./MapView";
+
+
+function Dashboard(){
+
+
+return (
+
+<div>
+
+
+<header className="header">
+
+<h1>
+🤖 Autonomous Navigation System
+</h1>
+
+<p>
+Painel de Controle do Robô
+</p>
+
+</header>
+
+
+
+<div className="grid">
+
+
+<RobotStatus />
+
+
+<ControlPanel />
+
+
+<Telemetry />
+
+
+<MapView />
+
+
+</div>
+
+
+</div>
+
+);
+
+
+}
+
+
+export default Dashboard;
